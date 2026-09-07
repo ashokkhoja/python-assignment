@@ -51,23 +51,12 @@ else:
 
 
 #Q=10
-x=int(input("enter your first number:-"))
-y=int(input("enter your second number:-"))
+x=int(input("enter your first number"))
+y=int(input("enter your second number"))
 if x>y:
     print("x is greater than y")
 else:
     print("y is greater")
 
-#Q=11
-marks=int(input("enter your marks:-"))
-if marks>=90:
-    print("A")
-elif 75<marks<89:
-    print("B")
-elif 60<marks<74:
-    print("C")
-elif 40<marks<59:
-    print("D")
-else:
-    print("F")
+
 
