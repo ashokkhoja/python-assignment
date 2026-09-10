@@ -115,7 +115,7 @@
 
 
 #E. String Iteration
-#Q=21
+Q=21
 # name=input("enter your name:")
 # for i in name:
 #     print(i)
@@ -149,5 +149,45 @@
 # print(count)
 
 #Q=26
+# for row in range(3):
+#     for col in range(4):
+#          print("*",end="")
+#     print()
 
+#Q=27
+# for row in range(4):
+#     for col in range(5):
+#          print("*",end="")
+#     print()
+   
+#Q=28
+
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print("*",end="")
+#     print()
+
+# Q=29
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(j,end="")
+#     print()
+
+
+#Q=30
+
+# for i in range(5):
+#     for j in range(5):
+#         print((i+1)*(j+1),end="\t")
+#     print()
+
+
+
+#final challenge pratice
+
+n=int(input("enter in numbers:"))
+for i in range(n):
+    for j in range(i+1):
+        print(j+1,end="")
+    print()    
 
