@@ -187,19 +187,21 @@ char = input("Enter a character: ")
 #     print("loss",loss / cost_price * 100)
 # else:
 #     print("none")
+# q=16
+# units = float(input("Enter total units consumed: "))
 
-#16. Electricity Bill
+# if units <= 0:
+#     bill = 0
+# elif units <= 100:
+#     bill = units * 5
+# elif units <= 200:
+#     bill = (100 * 5) + ((units - 100) * 7)
+# else:
+#     bill = (100 * 5) + (100 * 7) + ((units - 200) * 10)
 
-  # bill=int(input("enter in electricity bill :"))
-  # if 0=<bill<=100:
-      
-  #     print("₹5 per unit",bill*5)
-  # elif 100<=bill<=200:
-  #     print("₹7 per unit",bill*7)
-  # else:
-  #     print("₹10 per unit",bill*10)
+# print(f"Total Electricity Bill: ₹{bill}")
 
-#17. Simple Calculator
+# #17. Simple Calculator
 # first_number=int(input("enter your first number:"))
 # second_number=int(input("enter your second number:"))
 # operator=input("enter in operator(+,-,*,/)")
