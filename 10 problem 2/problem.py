@@ -180,7 +180,7 @@
 # 40
 # Average = (60+50+40)/3 = 50
 # Output: Pass
-k
+
 
 
 # m1 = float(input("Enter marks of Subject 1: "))
