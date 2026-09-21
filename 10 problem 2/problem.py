@@ -169,14 +169,14 @@
 # Start.
 # input three marks.
 # average.
-# rsult Fail.
+# rsult pass.
 # Stop.
 
 # Marks
 # 60
 # 50
 # 40
-# Average = (60+50+40)/3 = 50
+# Average = (80+60+40)/3 = 60
 # Output:
 # Pass
 
@@ -184,8 +184,8 @@
 # marks2 = float(input("Enter marks of Subject 2: "))
 # marks3 = float(input("Enter marks of Subject 3: "))
 
-# average = (m1 + m2 + m3) / 3
-# print("Average =", average)
+# average = (marks1 + marks2 + marks3) / 3
+# print(average)
 # if average >40:
 #     print("Pass")
 # else:
