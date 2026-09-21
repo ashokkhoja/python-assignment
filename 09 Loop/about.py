@@ -185,9 +185,9 @@ Q=21
 
 #final challenge pratice
 
-n=int(input("enter in numbers:"))
-for i in range(n):
-    for j in range(i+1):
-        print(j+1,end="")
-    print()    
+# n=int(input("enter in numbers:"))
+# for i in range(n):
+#     for j in range(i+1):
+#         print(j+1,end="")
+#     print()    
 
