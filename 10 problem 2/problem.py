@@ -1,12 +1,12 @@
 # problem 1
-# INPUT
+# input
 #     First number
 #     Second number
 
-# PROCESSING
+# Proceesing
 #     Add first number and second number
 
-# OUTPUT
+# Output
 #     Sum_value
 
 # 1. Start
@@ -109,7 +109,7 @@
 # input
 # Age
 # Process	
-# Check if age ≥ 18
+# if age ≥ 18
 # Output
 # Eligible or Not Eligible
 
@@ -126,24 +126,24 @@
 # age = int(input("Enter age: "))
 
 # if age >= 18:
-#     print("Eligible to vote")
+#     print("Eligible")
 # else:
-#     print("Not eligible to vote")
+#     print("Not eligible")
 
 # Problem 5
 # Input
 # Price
 # Process
-# Apply 20% discount if price ≥ 2000
+# 2000 in 20% discount
 # Output
 # Final Price
 
 # Start.
 # Input price.
-# If price is at least 2000:
+# If price 2000:
 # Discount = 20%.
-# Final price = price − discount.
-# Otherwise final price = price.
+# Final  = price − discount.
+# final price = price.
 # Print final price.
 # Stop.
 
@@ -154,24 +154,23 @@
 # price = float(input("Enter price: "))
 
 # if price >= 2000:
-#     price = price - (price * 20 / 100)
+#   print(price*20/100)
 
-# print("Final Price =", price)
+# print("Final:", price)
 	
 
 # Problem 6
-# Input
-# Three subject marks
+# input
+# Three sub. marks
 # Process
-# Calculate average
+# average
 # Output
 # Pass or Fail
 
 # Start.
-# Input three marks.
-# Calculate average.
-# If average is at least 40, print Pass.
-# Otherwise print Fail.
+# input three marks.
+# average.
+# rsult Fail.
 # Stop.
 
 # Marks
@@ -179,19 +178,16 @@
 # 50
 # 40
 # Average = (60+50+40)/3 = 50
-# Output: Pass
+# Output:
+# Pass
 
-
-
-# m1 = float(input("Enter marks of Subject 1: "))
-# m2 = float(input("Enter marks of Subject 2: "))
-# m3 = float(input("Enter marks of Subject 3: "))
+# marks1 = float(input("Enter marks of Subject 1: "))
+# marks2 = float(input("Enter marks of Subject 2: "))
+# marks3 = float(input("Enter marks of Subject 3: "))
 
 # average = (m1 + m2 + m3) / 3
-
 # print("Average =", average)
-
-# if average >= 40:
+# if average >40:
 #     print("Pass")
 # else:
 #     print("Fail")
