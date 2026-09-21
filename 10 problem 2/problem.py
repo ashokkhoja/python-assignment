@@ -34,14 +34,12 @@
 # print(sum_value)
 
 # Problem 2
-# INPUT:
+# input:
 # Number
 
-# PROCESSING
+# Processing
 # check number%2
-# if is 0 EnvironmentError
-
-
+# if is 0 in devide:
 # output
 # even or odd
 
@@ -71,16 +69,16 @@
 #     print("odd")
 
 # Problem 3
-# INPUT:
+# input:
 # first number 
 # second number
 # three number
 
-# PROCEESING:
-# F>S AND F>T end...
-# compare numbers
+# Procssing:
+# F>S AND F>T 
+# check number
 
-# OUTPUT:
+# Output:
 # largest number
 
 # Start.
@@ -98,12 +96,12 @@
 # second_number = int(input("Enter second number: "))
 # Third_number = int(input("Enter third number: "))
 
-# if first_number >= second_number and first_number >= Third_number:
-#     print("Largest =", first_number)
-# elif second_number >= first_number and second_number >= Third_number:
-#     print("Largest =", second_number)
+# if first_number > second_number and first_number >Third_number:
+#     print("Largest:-", first_number)
+# elif second_number >first_number and second_number >Third_number:
+#     print("Largest:-", second_number)
 # else:
-#     print("Largest =", Third_number)
+#     print("Largest:-", Third_number)
 
 # Problem 4
 # input
@@ -114,14 +112,15 @@
 # Eligible or Not Eligible
 
 # Start.
-# Input age.
-# If age is at least 18, print Eligible.
-# Otherwise print Not Eligible.
+# input age.
+# if age 18 print eligible.
+# print Not eligible.
 # Stop.
 
 
 # Age = 20
-# Output: Eligible to vote
+# Output: 
+# Eligible 
 
 # age = int(input("Enter age: "))
 
