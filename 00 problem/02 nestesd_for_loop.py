@@ -5,8 +5,9 @@
 #     print()
 
 # 2. Print Numbers in Rows
-# for i in range(1,4):
-#     for j in range(1,4):
+# n=int(input("enter in numbers:-"))
+# for i in range(1,n):
+#     for j in range(1,n):
 #         print(j,end="")
 #     print()
 
@@ -17,85 +18,87 @@
 #    print()
 
 # 4. Increasing Star Pattern
-
-# for i in range(1,6):
+# n=int(input("enter in numbers:-"))
+# for i in range(1,n):
 #     for j in range(i):
 #         print("* ",end="")
 #     print()
 
     # 5. Decreasing Star Pattern
-
-# for i in range(5,0,-1):
+# n=int(input("enter in numbers:-"))
+# for i in range(n,0,-1):
 #     for j in range(i):
 #         print("* ",end="")
 #     print()
 
 #  6. Increasing Number Pattern
-
-# for i in range(1,6):
+# n=int(input("enter in numbers:-"))
+# for i in range(1,n):
 #     for j in range(1,i+1):
 #         print(j,end="")
 #     print()
 
 #  7. Repeated Number Pattern
-
-# for i in range(1,6):
+# n=int(input("enter in numbers:-"))
+# for i in range(1,n):
 #     for j in range(1,i+1):
-#        print(i,end="")
+#        print(i,end=" ")
 #     print()
 
 #  8. Multiplication Tables from 1 to 5
-
-# for i in range(1,6):
+# n=int(input("enter in numbers:-"))
+# for i in range(1,n):
 #     for j in range(1,11):
 #         print(f"{i}*{j}={i*j}")
 #     print()
 
 # 9. Multiplication Grid
-
-# for i in range(1,4):
+# n=int(input("enter in numbers:-"))
+# for i in range(1,n+1):
 #     for j in range(1,6):
 #         print(i*j,end=" ")
 #     print()
 
 
 # 10. Print Squares in Rows
-
-# for i in range(1,6):
-#     for j in range(1,6):
+# n=int(input("enter in numbers:-"))
+# for i in range(1,n):
+#     for j in range(1,n):
 #         print(j**2,end=" ")
 #     print()
 
 
 # 11. Alphabet Pattern
-
-# for i in range(5):
-#     for j in range(i+1):
+# n=int(input("enter in numbers:-"))
+# for i in range(n):
+#     for j in range(i):
 #         print(chr(65+j),end=" ")
 #     print()
 
-# 12. Repeated Alphabet Pattern
-
-# for i in range(5):
+# # 12. Repeated Alphabet Pattern
+# n=int(input("enter in chr:-"))
+# for i in range(n):
 #     for j in range(i+1):
 #         print(chr(65+i),end=" ")
 #     print()
 
 # #  13. Odd Number Pattern
-# for i in range(5):
+# n=int(input("enter in numbers:-"))
+# for i in range(n):
 #     for j in range(1,(i+1)*2,2):
 #         print(j,end=" ")
 #     print()
 
 # 14. Even Number Pattern
-
-# for i in range(5):
+# n=int(input("enter in numbers:-"))
+# for i in range(n):
 #     for j in range(1,(i+1)*2,2):
 #         print(j+1,end=" ")
 #     print()
 
 # 15. 5×5 Star Square
-# for i in range(1,6):
+# n=int(input("enter in numbers:-"))
+# for i in range(1,n):
 #     for j in range(1,6):
 #         print("* ",end="")
 #     print()
@@ -108,8 +111,9 @@
 
 
 ## 17. Row-wise Numbers
+# n=int(input("enter in numbers:-"))
 # p=1
-# for i in range(1,4):
+# for i in range(1,n):
 #     for j in range(1,4):
 #         print(p,end=" ")
 #         p+=1
@@ -117,8 +121,9 @@
 
 
 # 18. Print 1 to 20 in 4 Rows
+# n=int(input("enter knjh:-"))
 # p=1
-# for i in range(4):
+# for i in range(1,n):
 #     for j in range(5):
 #         print(p,end=" ")
 #         p+=1
