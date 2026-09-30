@@ -15,7 +15,7 @@ while i<10:
 
 i=1
 while i<11:
-    print(i,end="")
+    print(i,end="") 
     i+=1
 
 4
@@ -225,7 +225,7 @@ while i<=5:
         j+=1
     print()
     i+=1
-or
+
 i=1
 while i <= 5:
     print("*" * i)
