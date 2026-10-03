@@ -316,7 +316,7 @@ match number:
         print("E")
         print("F")
     case _:
-        print("X")
+        print("X") 
 What will be the output?
 
 Set 7 — Nested match-case
