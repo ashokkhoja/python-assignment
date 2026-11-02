@@ -88,7 +88,7 @@
 # Q=10
 
 # def order_summary(item, quantity=1, price=100, delivery_fee=40):
-#     total=item*quantity*price*delivery_fee
+#     total=quantity*price*delivery_fee
 #     return total 
-# print(order_summary(5))
-# print(order_summary(4,delivery_fee=80,price=0.1))
+# print(order_summary("gold"))
+# print(order_summary(delivery_fee=80,price=0.1))
